@@ -102,8 +102,8 @@ module.exports = class XMLStringifier
   # `str` the string to escape
   elEscape: (str) ->
     str.replace(/&/g, '&amp;')
-       .replace(/</g, '&lt;')
-       .replace(/>/g, '&gt;')
+       #.replace(/</g, '&lt;')
+       #.replace(/>/g, '&gt;')
        .replace(/\r/g, '&#xD;')
 
   # Escapes special characters in attribute values
